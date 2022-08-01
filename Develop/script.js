@@ -1,4 +1,4 @@
-// Assignment code here
+// string for password contents
 let generatePassword = (
 ) => {
   var passlength = window.prompt(
