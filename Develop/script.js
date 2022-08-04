@@ -5,6 +5,9 @@ let generatePassword = (
     "How long do you want your password to be (8-128)", "8"
   )
 
+  if (passlength < 8) passlength = 8
+  if (passlength > 128) passlength = 128
+
   let charCodes = LOWERCASE_CODES;
 
   var includeuppercase = window.confirm(
